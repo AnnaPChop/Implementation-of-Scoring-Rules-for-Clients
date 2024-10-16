@@ -1,9 +1,12 @@
-
+'''El modelo de análisis creado, lo vamos a probar generando el código con 100 clientes distintos, resultados de cada parámetro aleatorios 
+y por último realizando un gráfico del puntaje de los 100 clientes para que podamos visualizar la salud de la cartera ese mes. 
+Si el porcentaje de clientes con un score mayor al 90 por ciento está por encima del 85% de la cartera, podemos hacer una hipótesis de que la cartera de 
+clientes es facil de recuperar, de lo contrario sería necesario implementar nuevas herramientas de negociación para la recuperación de cuentas'''
 ''' The analysis model created will be tested by generating the code with 100 different clients, with random results for each parameter, 
 and finally by creating a graph of the scores of the 100 clients to visualize the health of the portfolio for that month. 
 If the percentage of clients with a score above 90 percent exceeds 85% of the portfolio, we can hypothesize that the client portfolio is easy to recover. 
 Otherwise, new negotiation tools would need to be implemented for account recovery.'''
-
+#Código
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -61,3 +64,9 @@ porcentaje_recuperables = (clientes_recuperables / n_clientes) * 100
 # Mostrar si la cartera es fácil de recuperar o no
 hipotesis = "fácil de recuperar" if porcentaje_recuperables > 85 else "necesita nuevas herramientas de negociación"
 porcentaje_recuperables, hipotesis
+
+#Resultado
+(55.00000000000001, 'necesita nuevas herramientas de negociación')
+
+'''El porcentaje de clientes con un score mayor al 90% es del 55%, lo que sugiere que la cartera necesita nuevas herramientas de negociación
+para mejorar la recuperación de cuentas.'''
