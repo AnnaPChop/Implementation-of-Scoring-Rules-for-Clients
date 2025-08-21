@@ -1,4 +1,4 @@
-# Implementation-of-Scoring-Rules-for-Clients
+fyt# Implementation-of-Scoring-Rules-for-Clients
 This project implements a scoring system to evaluate the likelihood of recovering customer accounts, based on a set of parameters related to their history of refinancing, delinquency, and cancellation requests. This score can be used by collections departments to assess how feasible it is to recover a customer and define personalized negotiation strategies.
 
 Considered Parameters:
@@ -15,4 +15,5 @@ Python Code: Implementation of scoring rules for clients.
 Synthetic Data: Generation of random data to simulate a portfolio of 100 clients.
 Visualization: Charts to represent score distribution and hypothesis analysis.
 Detailed Instructions: Includes instructions to reproduce the analysis and generate new scenarios.
-Ideal for those working in credit analysis, account recovery, and data science applied to business.
+Ideal for those working in credgit analysis, account recovery, and data science applied to business.
+.
